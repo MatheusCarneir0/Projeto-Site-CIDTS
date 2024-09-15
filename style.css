@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat Classic', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+}
+
+:root{
+    --color-primary: #2e2e2e;
+    --color-cabecalho: #fecd6f;
+    --color-greem: #065340;
+}
+
+body{
+    font-size: 100%;
+    background-color: #fefefe;
+    padding: 0 1rem;
+}
+/*  CABEÇALHO   */
+header{
+    background-color: var(--color-greem);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 1.25rem;
+}
+/*  CORPO   */
+main{
+    margin: 0 auto;
+    padding: 0 2%;
+    flex-wrap: wrap;
+    width: 75rem;
+}
+
+.home_menu{
+    color: var(--color-cabecalho);
+    text-decoration: none;
+    font-weight: bold
+}
+
+.cabecalho_menu_ancora{
+    color: var(--color-cabecalho);
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 1.25rem;
+    margin: 0% auto;
+}
+
+.menu__principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.25rem;
+    margin: 0% auto;
+}
+
+.text_menu{
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 1.25rem;
+    
+}
+
+.button_projetos{
+    background-color: #fefefe;
+    border: 2px solid var(--color-primary);
+    box-shadow: 4px 4px 0 var(--color-primary);
+    color: var(--color-primary);
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.25rem;
+    padding: .75rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu_cidts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 1.25rem;
+}
+
+.text_menu_cidts{
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 1.25rem;
+}
+
+/*  RODAPÉ  */
+
+footer{
+    background-color: #817169;
+    border-color: var(--color-primary);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 2rem;
+    color: #999898;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 10px 80px;
+    color: #ced0d0;
+}
+
+
+
+/*  Projetos    */
+
+
+.grade_projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    margin: 0% auto;
+    gap: 30px;
+    align-items: baseline;
+}
+
+.text_01{
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5;
+    width: 300px;
+    height: auto;
+    padding: 1rem;
+}
+
+
+/*  Rotas   */
+
+.titulo_projeto{
+    text-align: center;
+    justify-content: flex-end;
+    color: var(--color-primary);
+    align-items: center;
+    align-content: center;
+    margin: 1.25rem;
+    /*  BORDA   */
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 10px;
+}
